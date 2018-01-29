@@ -5,7 +5,7 @@ def prime?(number)
   end
   number_list = (2..number-1).to_a
   number_list.each do
-    remainder = (number % x)
+    remainder = number% x
     if remainder == 0
       return false
     end
